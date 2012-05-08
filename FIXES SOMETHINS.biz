@@ -1,1 +1,15 @@
 FIXES SOMETHINSsssdsdf
+bng 
+
+curl -v -H "Content-Type: application/json" -X POST https://api.github.com/repos/pushmatrix/webhook-test/hooks/1 -d '
+{
+  "name": "web",
+  "active": true,
+  "events": [
+    "issue_comment",
+    "issues"
+  ],
+  "config": {
+    "url": "http://requestb.in/1b2dca91"
+  }
+}'
