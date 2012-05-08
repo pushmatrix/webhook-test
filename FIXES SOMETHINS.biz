@@ -10,7 +10,7 @@ curl -v -H "Content-Type: application/json" -X POST https://api.github.com/repos
     "issue_comment",
     "issues"
   ],
-  "config": {
+  "config": {asdfsdf
     "url": "http://requestb.in/1b2dca91"
   }
 }'
